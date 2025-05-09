@@ -1,14 +1,13 @@
-package org.example;
+package org.islands;
 
-import java.awt.*;
-import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] map = generateMap(5, 10);
+        int[][] map = generateMap(4, 8);
         printMap(map);
         System.out.println("Столько здесь островов - " +countIslands(map) + "!");
+        printMap(map);
 
     }
 
